@@ -1,0 +1,32 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+    {
+      "type": "java (buildArtifact)",
+      "mainClass": "App",
+      "targetPath": "${workspaceFolder}/${workspaceFolderBasename}.jar",
+      "elements": [
+        "${compileOutput}",
+        "${dependencies}"
+      ],
+      "problemMatcher": [],
+      "label": "java (buildArtifact): study",
+      "group": "test"
+    },
+    {
+      "type": "java (buildArtifact)",
+      "mainClass": "App",
+      "targetPath": "${workspaceFolder}/${workspaceFolderBasename}.jar",
+      "elements": [
+        "${compileOutput}",
+        "${dependencies}"
+      ],
+      "problemMatcher": [],
+      "label": "java (buildArtifact): study",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      }
+    }
+  ]
+}
