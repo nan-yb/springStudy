@@ -1,0 +1,9 @@
+{
+  "java.project.sourcePaths": [
+    "app/src/main/java/study",
+    "app/src/test/java/study"
+  ],
+  "java.test.config": {
+    "workingDirectory": "${workspaceFolder}"
+  }
+}
