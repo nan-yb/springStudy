@@ -1,4 +1,4 @@
-package study.logic;
+package logic;
 
 
 import org.junit.jupiter.api.DisplayName;
